@@ -4,9 +4,9 @@
 #include "linkStack.h"
 
 int main(int argc, char *argv[])
-{
-	int a;
+{	
+	testInfixToPostfix();
 //	testStack();
-	testLinkStack();
+//	testLinkStack();
 	return 0;
 }

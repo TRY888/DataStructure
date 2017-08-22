@@ -1,13 +1,6 @@
-#include "sqStack.h"
 #include <stdio.h> 
+#include "sqStack.h"
 
-#define maxLen 10
-typedef int DataType;
-
-typedef struct sqStack{
-	DataType data[maxLen];
-	int top;
-}SqStack;
 
 void initStack(SqStack *pStack)
 {

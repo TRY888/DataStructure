@@ -1,11 +1,7 @@
 #include <stdio.h>
+#include "linkStack.h"
 
-typedef int DataType;
 
-typedef struct linkStack{
-	DataType data;
-	struct linkStack *next; 
-}LinkStack;
 
 void initLinkStack(LinkStack **pStack)
 {
@@ -35,6 +31,23 @@ int popLinkStack(LinkStack **pStack, DataType *x)
 	*x = (*pStack)->data;
 	*pStack = (*pStack)->next;
 	free(p);
+	return 1;
+}
+
+int isLinkStackEmpty(LinkStack **pStack)
+{
+	if(*pStack == NULL){
+		return 1;
+	}
+	return 0;
+}
+
+int frontLinkStack(LinkStack **pStack, DataType *x)
+{
+	if(*pStack == NULL){
+		return 0;
+	}	
+	*x = (*pStack)->data;
 	return 1;
 }
 
