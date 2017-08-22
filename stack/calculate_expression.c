@@ -5,12 +5,16 @@ int comparePrior(char top, char c)
 	if(top == '*' || top == '/'){
 		return 1;
 	}
+	if(top == '('){
+		return 0;
+	}
 	if(c == '+' || c == '-'){
 		return 1;
 	}
 	if((top == '+' || top == '-') && (c == '*' || c == '/')){
 		return 0;
 	}
+	
 }
 
 
@@ -42,11 +46,11 @@ void infixToPostfix(const char *express)
 		{
 			while(frontLinkStack(&stack, &output))
 			{
-				printf("%c ", output);
-				if(output == ')'){
+				if(output == '('){
 					popLinkStack(&stack, &output);
 					break;
 				}
+				printf("%c ", output);
 				popLinkStack(&stack, &output);	
 			}
 			i++;
@@ -56,9 +60,10 @@ void infixToPostfix(const char *express)
 		{
 			if(comparePrior(output, express[i])){
 				popLinkStack(&stack, &output);
-				printf("%c", output);
+				printf("%c ", output);
 			}else{
 				pushLinkStack(&stack, express[i]);
+				i++;
 				break;
 			}
 		} 	
@@ -66,7 +71,7 @@ void infixToPostfix(const char *express)
 	while(frontLinkStack(&stack, &output))
 	{
 		popLinkStack(&stack, &output);
-		printf("%c", output);
+		printf("%c ", output);
 	}	
 }
 
