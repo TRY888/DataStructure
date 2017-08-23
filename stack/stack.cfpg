@@ -1,11 +1,4 @@
 <Projects version="2.0">
 	<Project active="1">stack.cfp</Project>
-	<File active="0">main.c</File>
-	<File active="0">sysConvert.h</File>
-	<File active="0">calculate_expression.c</File>
-	<File active="1">sysConvert.c</File>
-	<File active="0">sqStack.c</File>
-	<File active="0">linkStack.c</File>
-	<File active="0">linkStack.h</File>
-	<File active="0">sqStack.h</File>
+	<File active="1">main.c</File>
 </Projects>

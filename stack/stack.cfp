@@ -19,11 +19,11 @@
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="1" x="2" y="9">main.c</Attribute>
+<Attribute topline="15" x="1" y="15">main.c</Attribute>
 <Attribute topline="1" x="19" y="7">sqStack.c</Attribute>
 <Attribute topline="40" x="1" y="52">linkStack.c</Attribute>
 <Attribute topline="4" x="3" y="10">calculate_expression.c</Attribute>
-<Attribute topline="13" x="3" y="22">sysConvert.c</Attribute>
+<Attribute topline="22" x="30" y="33">sysConvert.c</Attribute>
 <Attribute topline="1" x="24" y="8">sqStack.h</Attribute>
 <Attribute topline="1" x="1" y="3">linkStack.h</Attribute>
 <Attribute topline="1" x="12" y="4">include.h</Attribute>
@@ -73,26 +73,6 @@
 <Breakpoint>
 	<File>calculate_expression.c</File>
 	<Line>73</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>sysConvert.c</File>
-	<Line>30</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>sysConvert.c</File>
-	<Line>29</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>sysConvert.c</File>
-	<Line>37</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>sysConvert.c</File>
-	<Line>35</Line>
 	<Condition></Condition>
 </Breakpoint>
 <DefConfig>mingw5</DefConfig>
