@@ -39,8 +39,6 @@ void testSysConvert()
 				popLinkStack(&stack, &output);
 			}
 			printf("\n----------------\n");
-		}else{
-			break;
 		}
 	}
 }
