@@ -8,23 +8,27 @@
 	<File>sqStack.c</File>
 	<File>linkStack.c</File>
 	<File>calculate_expression.c</File>
+	<File>sysConvert.c</File>
 </Folder>
 <Folder name="Header Files">
 	<File>sqStack.h</File>
 	<File>linkStack.h</File>
 	<File>include.h</File>
 	<File>calculate_expression.h</File>
+	<File>sysConvert.h</File>
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="1" x="22" y="6">main.c</Attribute>
-<Attribute topline="1" x="21" y="2">sqStack.c</Attribute>
-<Attribute topline="41" x="1" y="52">linkStack.c</Attribute>
+<Attribute topline="1" x="2" y="9">main.c</Attribute>
+<Attribute topline="1" x="19" y="7">sqStack.c</Attribute>
+<Attribute topline="40" x="1" y="52">linkStack.c</Attribute>
 <Attribute topline="4" x="26" y="14">calculate_expression.c</Attribute>
-<Attribute topline="1" x="21" y="4">sqStack.h</Attribute>
+<Attribute topline="22" x="26" y="32">sysConvert.c</Attribute>
+<Attribute topline="1" x="24" y="8">sqStack.h</Attribute>
 <Attribute topline="1" x="1" y="3">linkStack.h</Attribute>
-<Attribute topline="1" x="23" y="4">include.h</Attribute>
+<Attribute topline="1" x="12" y="4">include.h</Attribute>
 <Attribute topline="1" x="24" y="4">calculate_expression.h</Attribute>
+<Attribute topline="1" x="20" y="4">sysConvert.h</Attribute>
 <FolderState>111</FolderState>
 <Breakpoint>
 	<File>calculate_expression.c</File>
@@ -69,6 +73,26 @@
 <Breakpoint>
 	<File>calculate_expression.c</File>
 	<Line>73</Line>
+	<Condition></Condition>
+</Breakpoint>
+<Breakpoint>
+	<File>sysConvert.c</File>
+	<Line>30</Line>
+	<Condition></Condition>
+</Breakpoint>
+<Breakpoint>
+	<File>sysConvert.c</File>
+	<Line>29</Line>
+	<Condition></Condition>
+</Breakpoint>
+<Breakpoint>
+	<File>sysConvert.c</File>
+	<Line>37</Line>
+	<Condition></Condition>
+</Breakpoint>
+<Breakpoint>
+	<File>sysConvert.c</File>
+	<Line>35</Line>
 	<Condition></Condition>
 </Breakpoint>
 <DefConfig>mingw5</DefConfig>

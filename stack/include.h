@@ -1,6 +1,6 @@
 #ifndef _INCLUDE_H
 #define _INCLUDE_H
 
-typedef char DataType;
+typedef int DataType;
 
 #endif
