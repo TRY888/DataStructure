@@ -3,9 +3,14 @@
 
 #include "include.h"
 
-typedef struct node{
+typedef struct Lnode{
 	DataType data;
-	struct node *next;
+	struct Lnode *next;
 }LinkQueue;
+
+void initLinkQueue(LinkQueue *queue, LinkQueue **head, LinkQueue **tail);
+int pushLinkQueue(LinkQueue **tail, DataType x);
+int popLinkQueue(LinkQueue **head, LinkQueue **tail, DataType *x);
+void testLinkQueue();
 
 #endif

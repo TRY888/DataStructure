@@ -4,7 +4,7 @@
 #include "include.h"
 #define MAXLEN 10
 
-typedef struct node{
+typedef struct Snode{
 	DataType data[MAXLEN];
 	int head;
 	int tail;
