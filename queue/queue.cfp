@@ -5,12 +5,22 @@
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
 	<File>main.c</File>
+	<File>sqQueue.c</File>
+	<File>linkQueue.c</File>
 </Folder>
 <Folder name="Header Files">
+	<File>sqQueue.h</File>
+	<File>linkQueue.h</File>
+	<File>include.h</File>
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="8" x="1" y="8">main.c</Attribute>
+<Attribute topline="1" x="16" y="6">main.c</Attribute>
+<Attribute topline="1" x="2" y="8">sqQueue.c</Attribute>
+<Attribute topline="10" x="1" y="22">linkQueue.c</Attribute>
+<Attribute topline="1" x="20" y="4">sqQueue.h</Attribute>
+<Attribute topline="1" x="1" y="12">linkQueue.h</Attribute>
+<Attribute topline="1" x="1" y="5">include.h</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">
