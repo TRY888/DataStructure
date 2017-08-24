@@ -1,0 +1,9 @@
+<Projects version="2.0">
+	<Project active="1">queue.cfp</Project>
+	<File active="0">main.c</File>
+	<File active="0">sqQueue.c</File>
+	<File active="1">linkQueue.c</File>
+	<File active="0">linkQueue.h</File>
+	<File active="0">include.h</File>
+	<File active="0">sqQueue.h</File>
+</Projects>
