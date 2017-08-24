@@ -9,6 +9,7 @@
 	<File>linkStack.c</File>
 	<File>calculate_expression.c</File>
 	<File>sysConvert.c</File>
+	<File>linkQueue.c</File>
 </Folder>
 <Folder name="Header Files">
 	<File>sqStack.h</File>
@@ -16,6 +17,7 @@
 	<File>include.h</File>
 	<File>calculate_expression.h</File>
 	<File>sysConvert.h</File>
+	<File>linkQueue.h</File>
 </Folder>
 <Folder name="Other Files">
 </Folder>
@@ -24,11 +26,13 @@
 <Attribute topline="40" x="1" y="52">linkStack.c</Attribute>
 <Attribute topline="4" x="3" y="10">calculate_expression.c</Attribute>
 <Attribute topline="22" x="30" y="33">sysConvert.c</Attribute>
+<Attribute topline="1" x="21" y="7">linkQueue.c</Attribute>
 <Attribute topline="1" x="24" y="8">sqStack.h</Attribute>
 <Attribute topline="1" x="1" y="3">linkStack.h</Attribute>
 <Attribute topline="1" x="12" y="4">include.h</Attribute>
 <Attribute topline="1" x="24" y="4">calculate_expression.h</Attribute>
 <Attribute topline="1" x="20" y="4">sysConvert.h</Attribute>
+<Attribute topline="1" x="1" y="5">linkQueue.h</Attribute>
 <FolderState>111</FolderState>
 <Breakpoint>
 	<File>calculate_expression.c</File>
