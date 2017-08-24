@@ -11,6 +11,7 @@ typedef struct Lnode{
 void initLinkQueue(LinkQueue *queue, LinkQueue **head, LinkQueue **tail);
 int pushLinkQueue(LinkQueue **tail, DataType x);
 int popLinkQueue(LinkQueue **head, LinkQueue **tail, DataType *x);
+void printLinkQueue(LinkQueue *queue);
 void testLinkQueue();
 
 #endif

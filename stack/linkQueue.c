@@ -49,7 +49,7 @@ void printLinkQueue(LinkQueue *queue)
 	LinkQueue *p = queue;
 	while(p->next != NULL)
 	{
-		printf("%d ", p->next->data);
+		printf("%c ", p->next->data);
 		p = p->next;
 	}	
 }

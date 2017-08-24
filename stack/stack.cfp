@@ -21,64 +21,19 @@
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="15" x="1" y="15">main.c</Attribute>
+<Attribute topline="1" x="3" y="11">main.c</Attribute>
 <Attribute topline="1" x="19" y="7">sqStack.c</Attribute>
-<Attribute topline="40" x="1" y="52">linkStack.c</Attribute>
-<Attribute topline="4" x="3" y="10">calculate_expression.c</Attribute>
-<Attribute topline="22" x="30" y="33">sysConvert.c</Attribute>
-<Attribute topline="1" x="21" y="7">linkQueue.c</Attribute>
+<Attribute topline="58" x="1" y="52">linkStack.c</Attribute>
+<Attribute topline="293" x="38" y="304">calculate_expression.c</Attribute>
+<Attribute topline="19" x="30" y="33">sysConvert.c</Attribute>
+<Attribute topline="40" x="24" y="50">linkQueue.c</Attribute>
 <Attribute topline="1" x="24" y="8">sqStack.h</Attribute>
-<Attribute topline="1" x="1" y="3">linkStack.h</Attribute>
+<Attribute topline="1" x="17" y="14">linkStack.h</Attribute>
 <Attribute topline="1" x="12" y="4">include.h</Attribute>
-<Attribute topline="1" x="24" y="4">calculate_expression.h</Attribute>
+<Attribute topline="1" x="25" y="5">calculate_expression.h</Attribute>
 <Attribute topline="1" x="20" y="4">sysConvert.h</Attribute>
-<Attribute topline="1" x="1" y="5">linkQueue.h</Attribute>
+<Attribute topline="7" x="20" y="14">linkQueue.h</Attribute>
 <FolderState>111</FolderState>
-<Breakpoint>
-	<File>calculate_expression.c</File>
-	<Line>28</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>calculate_expression.c</File>
-	<Line>31</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>calculate_expression.c</File>
-	<Line>36</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>calculate_expression.c</File>
-	<Line>41</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>calculate_expression.c</File>
-	<Line>50</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>calculate_expression.c</File>
-	<Line>53</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>calculate_expression.c</File>
-	<Line>62</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>calculate_expression.c</File>
-	<Line>65</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>calculate_expression.c</File>
-	<Line>73</Line>
-	<Condition></Condition>
-</Breakpoint>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">
 	<TargetName>stack</TargetName>

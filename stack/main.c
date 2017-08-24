@@ -6,7 +6,8 @@
 
 int main(int argc, char *argv[])
 {	
-	testSysConvert();
+	calculateExpression();
+//	testSysConvert();
 //	testInfixToPostfix();
 //	testStack();
 //	testLinkStack();
