@@ -1,0 +1,75 @@
+﻿
+typedef struct node{
+	int data;
+	struct node *next;
+}LinkList;
+
+void delete(LinkList *head, int min, int max)
+{
+	LinkList *p,*s,*temp;
+	p = head->next;
+	s = head;
+ 	while(p != NULL)
+	{
+		if(p->data > min){
+			temp = p;
+			p = p->next;
+			free(temp)
+            		break;
+		}
+		s = p;
+		p = p->next;
+	}
+	while(p != NULL)
+	{
+		if(p->data >= max){	
+			break;
+		}
+		temp = p;
+		p = p->next;
+		free(temp)
+	}
+	s->next = p;
+}
+
+
+void delete(LinkList *head, int min, int max)
+{
+	LinkList *p,*s,*temp;
+	p = head->next;
+	s = head;
+ 	while(p != NULL && p->data <= min)
+	{
+		s = p;
+		p = p->next;
+	}
+	while(p != NULL && p->data < max)
+	{
+		temp = p;
+		p = p->next;
+		free(temp)
+	}
+	s->next = p;
+}
+
+
+6---------------
+void delete(LinkList *head, int min, int max)
+{
+	LinkList *p, *s, *temp;
+	p = head->next;
+	s = head;
+	while((p != NULL))
+	{
+		if((p->data < max) && (p->data > min)){
+			temp = p;
+			p = p->next;
+			s->next = p;
+			free(temp);
+			continue;
+		}
+		s = p;
+		p = p->next;
+		
+	}
+}
