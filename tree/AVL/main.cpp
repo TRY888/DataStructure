@@ -246,13 +246,13 @@ bool avl_delete(BiTree &root, int key, bool &lower)
                     lower = true;
                     break;
                 case RH:
-                    r_balance(root);
-                    if(root->left->bf == EH)
+                    if(root->right->bf == EH)
                         lower = false;
-                    else if(root->left ->bf == LH)
+                    else if(root->right ->bf == LH)
                         lower = true;
                     else
                         lower = true;
+                    r_balance(root);
                     break;
                 default:break;
             }
@@ -270,13 +270,13 @@ bool avl_delete(BiTree &root, int key, bool &lower)
                     lower = true;
                     break;
                 case LH:
-                    l_balance(root);
-                    if(root->right->bf == EH)
+                    if(root->left->bf == EH)
                         lower = false;
-                    else if(root->right ->bf == LH)
+                    else if(root->left ->bf == LH)
                         lower = true;
                     else
                         lower = true;
+                    l_balance(root);
                     break;
                 default:break;
             }
